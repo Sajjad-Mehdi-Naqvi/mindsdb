@@ -1,5 +1,5 @@
 # Dockerfile
-FROM python:3.12.0a5-slim
+FROM python:slim-bookworm
 
 RUN apt-get update && apt-get upgrade -y
 RUN pip3 install --upgrade pip
